@@ -1,0 +1,11 @@
+Programación Síncrona:				Programación Asíncrona:
+Programación Paralela				Programación Paralela
+Acciones Bloqueantes				Acciones No Bloqueantes
+Paralelismo: Varios obejtos realizando		Concurrencia: un solo objeto, con varias
+una acción cada uno simultáneamente		tareas "Activas" entre las que va alternando
+(Síncrono)					(Asíncrono)
+
+Operador ternario opera de tres partes
+Variable = (condicion) ? Verdadero:Falso
+
+Ejecutar en nodeJS: E:\PROJECTS\JS>node 0_par_Impar.js

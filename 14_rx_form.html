@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Reactive</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html { font-family: sans-serif}
+        .hidden {display: none}
+    </style>
+</head>
+<body>
+    <h2>Formulario Con Programación Reactiva</h2>
+    <form action="">
+        <legend>Envianos Tus Comentarios</legend>
+        <input type="text" name="nombre" title="Tu nombre" placeholder="Nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" autofocus required><br>
+        <input type="email" name="email" title="Tu email" placeholder="Email" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" autofocus required><br>
+        <input type="text" name="asunto" title="Asunto a tratar" placeholder="Asunto a tratar" required><br>
+        <textarea name="coemntarios" cols="50" rows="3" title="Tus Comentarios" required></textarea><br>
+        <div class="preload  hidden"><i class="fa  fa-refresh  fa-spin  fa-5x"></i></div>
+        <div class="message  hidden"></div>
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.0/Rx.min.js"></script>
+    <!-- <script src="14_form_reactivo_Vanillajs.js"></script> -->
+    <script src="15_form_reactivo_Rxjs.js"></script>
+</body>
+</html>
